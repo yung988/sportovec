@@ -14,9 +14,7 @@ import {
   Users, 
   BookOpen, 
   Globe, 
-  User, 
-  Image
-} from "lucide-react"
+  User,} from "lucide-react"
 import { useState, useEffect } from "react"
 
 export default function Home() {
