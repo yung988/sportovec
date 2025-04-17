@@ -16,6 +16,7 @@ import {
   Globe, 
   User,} from "lucide-react"
 import { useState, useEffect } from "react"
+import Image from "next/image"
 
 export default function Home() {
   const [cursorX, setCursorX] = useState(50);
@@ -83,10 +84,11 @@ export default function Home() {
             <div className="relative w-full h-full">
               {/* První fotka (podnikatel) */}
               <div className="absolute inset-0">
-                <image 
+                <Image 
                   src="/hero-second.jpg" 
                   alt="Podnikatel po kariéře sportovce" 
-                  className="w-full h-full object-cover"
+                  fill
+                  className="object-cover"
                 />
               </div>
               
@@ -98,10 +100,11 @@ export default function Home() {
                   transition: "clip-path 0.1s ease"
                 }}
               >
-                <image 
+                <Image 
                   src="/hero-first.jpg" 
                   alt="Fotbalista v akci" 
-                  className="w-full h-full object-cover"
+                  fill
+                  className="object-cover"
                 />
               </div>
               
@@ -172,17 +175,19 @@ export default function Home() {
               </div>
               <div className="lg:w-1/2 grid grid-cols-2 gap-4">
                 <div className="relative rounded-3xl overflow-hidden h-[300px]">
-                  <image 
+                  <Image 
                     src="/fotbal.jpg" 
                     alt="Fotbalista v akci" 
-                    className="object-cover w-full h-full"
+                    fill
+                    className="object-cover"
                   />
                 </div>
                 <div className="relative rounded-3xl overflow-hidden h-[300px]">
-                  <image 
+                  <Image 
                     src="/fotbal2.jpg" 
                     alt="Fotbalový tým" 
-                    className="object-cover w-full h-full"
+                    fill
+                    className="object-cover"
                   />
                 </div>
               </div>
@@ -203,10 +208,11 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <Card className="rounded-3xl overflow-hidden border-0 shadow-lg">
                 <div className="relative h-[200px] overflow-hidden">
-                  <image 
+                  <Image 
                     src="/kurzy.jpg"
                     alt="Vzdělávací kurzy"
-                    className="w-full h-full object-cover"
+                    fill
+                    className="object-cover"
                   />
                   <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
                     <BookOpen 
@@ -236,10 +242,11 @@ export default function Home() {
 
               <Card className="rounded-3xl overflow-hidden border-0 shadow-lg">
                 <div className="relative h-[200px] overflow-hidden">
-                  <image 
+                  <Image 
                     src="/mentoring.jpg"
                     alt="Mentoring"
-                    className="w-full h-full object-cover"
+                    fill
+                    className="object-cover"
                   />
                   <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
                     <Users 
@@ -267,10 +274,11 @@ export default function Home() {
 
               <Card className="rounded-3xl overflow-hidden border-0 shadow-lg">
                 <div className="relative h-[200px] overflow-hidden">
-                  <image 
+                  <Image 
                     src="/therapy.jpg"
                     alt="Psychologická podpora"
-                    className="w-full h-full object-cover"
+                    fill
+                    className="object-cover"
                   />
                   <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
                     <User 
@@ -298,10 +306,11 @@ export default function Home() {
 
               <Card className="rounded-3xl overflow-hidden border-0 shadow-lg">
                 <div className="relative h-[200px] overflow-hidden">
-                  <image 
+                  <Image 
                     src="/network.jpg"
                     alt="Networking a komunita"
-                    className="w-full h-full object-cover"
+                    fill
+                    className="object-cover"
                   />
                   <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
                     <Globe 
@@ -363,10 +372,11 @@ export default function Home() {
                       <div className="flex items-center mb-4">
                         <div className="mr-4">
                           <div className="w-16 h-16 rounded-full overflow-hidden bg-gray-300">
-                            <image 
+                            <Image 
                               src="/fotbal.jpg" 
                               alt="Petra Svobodová" 
-                              className="w-full h-full object-cover"
+                              fill
+                              className="object-cover"
                             />
                           </div>
                         </div>
@@ -388,10 +398,11 @@ export default function Home() {
                       <div className="flex items-center mb-4">
                         <div className="mr-4">
                           <div className="w-16 h-16 rounded-full overflow-hidden bg-gray-300">
-                            <image 
+                            <Image 
                               src="/fotbal2.jpg" 
                               alt="Tomáš Hájek" 
-                              className="w-full h-full object-cover"
+                              fill
+                              className="object-cover"
                             />
                           </div>
                         </div>
@@ -658,10 +669,11 @@ export default function Home() {
               </div>
               <div className="lg:w-1/2">
                 <div className="relative rounded-3xl overflow-hidden h-[500px]">
-                  <image 
+                  <Image 
                     src="/fotbal3.jpg" 
                     alt="Sportovec v akci" 
-                    className="w-full h-full object-cover"
+                    fill
+                    className="object-cover"
                   />
                 </div>
               </div>
