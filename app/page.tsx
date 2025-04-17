@@ -386,9 +386,7 @@ export default function Home() {
                         </div>
                       </div>
                       <p className="italic text-lg">
-                        "Díky Sportovec 2.0 jsem našla odvahu začít podnikat. Kurzy finanční gramotnosti mi daly
-                        sebevědomí spravovat své finance a mentoring mi pomohl najít směr, kterým se vydat po skončení
-                        kariéry."
+                        {"Díky Sportovec 2.0 jsem našla odvahu začít podnikat. Kurzy finanční gramotnosti mi daly sebevědomí spravovat své finance a mentoring mi pomohl najít směr, kterým se vydat po skončení kariéry."}
                       </p>
                     </CardContent>
                   </Card>
@@ -412,9 +410,7 @@ export default function Home() {
                         </div>
                       </div>
                       <p className="italic text-lg">
-                        "Když jsem musel kvůli zranění ukončit kariéru ve 28 letech, byl jsem ztracený. Program
-                        Sportovec 2.0 mi pomohl najít novou cestu a dnes úspěšně vedu vlastní sportovní akademii pro
-                        děti."
+                        {"Když jsem musel kvůli zranění ukončit kariéru ve 28 letech, byl jsem ztracený. Program Sportovec 2.0 mi pomohl najít novou cestu a dnes úspěšně vedu vlastní sportovní akademii pro děti."}
                       </p>
                     </CardContent>
                   </Card>
