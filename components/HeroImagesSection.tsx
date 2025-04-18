@@ -10,7 +10,10 @@ export const HeroImagesSection = ({ cursorX, isMobile = false }: HeroImagesSecti
     <div className="absolute inset-0 overflow-hidden" style={{ zIndex: 0 }}>
       <div className="relative w-full h-full">
         {/* Tmavý gradient přes fotky */}
-        <div className={`absolute inset-0 bg-gradient-to-r from-green-800/${isMobile ? '60' : '40'} to-green-600/${isMobile ? '60' : '40'}`} style={{ zIndex: 4 }} />
+        <div 
+          className={`absolute inset-0 bg-gradient-to-r ${isMobile ? 'from-green-800/60 to-green-600/60' : 'from-green-800/40 to-green-600/40'}`} 
+          style={{ zIndex: 4 }} 
+        />
         
         {/* První obrázek (pozadí) */}
         <div className="absolute inset-0" style={{ zIndex: 1 }}>
