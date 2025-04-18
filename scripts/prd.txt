@@ -1,81 +1,147 @@
-SPORTOVEC 2.0
-Připraveni na život po kariéře
+# Sportovec 2.0 - Platforma pro podporu sportovců po kariéře
 
+## Přehled projektu
+Sportovec 2.0 je webová platforma, která pomáhá profesionálním sportovcům úspěšně přejít do života po sportovní kariéře. Poskytuje komplexní podporu ve formě vzdělávání, mentoringu, psychologické podpory a networkingu. Cílem je pomoci sportovcům najít novou identitu, uplatnit své jedinečné dovednosti a žít naplněný život i po ukončení sportovní dráhy.
 
-1. ÚVOD
-Každý vrcholový sportovec jednou ukončí svou kariéru. A právě tehdy začíná to nejtěžší utkání – život bez tréninků, slávy a rutiny, kterou znal celý život. Projekt Sportovec 2.0 vznikl, aby pomohl profesionálním sportovcům najít nový směr, rozvíjet se a žít naplněný život i po sportu.
+## Aktuální stav projektu
+Projekt aktuálně obsahuje základní informační webovou stránku s následujícími sekcemi:
+- Hero sekce s interaktivním efektem
+- O nás
+- Služby (vzdělávací kurzy, mentoring, psychologická podpora, networking)
+- Reference klientů
+- Cenové plány
+- FAQ
+- Kontaktní formulář
 
-2. PROBLÉM
-Mnoho profesionálních sportovců po ukončení kariéry čelí finančním výzvám a ztrátě úspor kvůli nedostatečné přípravě na život mimo sport.
-	•	Mnoho z nich postrádá finanční a profesní dovednosti.
-	•	Čelí ztrátě identity, rutiny a smyslu života.
-	•	Jsou zvyklí na dokonalý servis, ale po kariéře zůstávají bez systému podpory.
+Technicky je projekt postaven na:
+- Next.js 15.3.0 s App Routerem
+- React 19.0.0
+- TypeScript
+- TailwindCSS 4.1.4
+- Shadcn/UI komponenty (Button, Card, Accordion, Input, Textarea)
+- Lucide React ikony
 
-3. ŘEŠENÍ
-Sportovec 2.0 je komplexní vzdělávací a podpůrná platforma, která sportovcům pomáhá:
-	•	osvojit si finanční gramotnost a základy podnikání,
-	•	najít nový směr a identitu mimo sport,
-	•	propojit se s mentory, experty a bývalými sportovci,
-	•	získat psychologickou a koučovací podporu.
+## Plánované funkce (rozšíření)
 
-4. JÁDRO PROJEKTU
-Co nabízíme:
-	•	Online platforma a mobilní aplikace s kurzy, videi a komunitou.
-	•	Kurzy finanční gramotnosti, investování a ochrany majetku.
-	•	Mentoring od bývalých sportovců a podnikatelů.
-	•	Workshopy a networkingová setkání.
-	•	Psychologická a koučovací pomoc při přechodu z kariéry.
+### 1. Autentizace a účty uživatelů
+- Registrace a přihlášení sportovců a mentorů
+- Profily uživatelů s možností editace
+- Role a oprávnění (sportovec, mentor, administrátor)
+- Reset hesla a správa účtu
 
-5. PROČ PRÁVĚ MY
-Zakladatelem projektu je bývalý profesionální fotbalista, který po zranění ve 30 letech ukončil kariéru a prošel osobní krizí. Po ztracených investicích, podnikatelském neúspěchu a sérii omylů našel novou cestu a rozhodl se pomáhat ostatním. Projekt je postavený na autentickém příběhu, skutečné zkušenosti a pevném odhodlání měnit životy sportovců k lepšímu.
+### 2. Dashboard pro sportovce
+- Přehled aktivit a pokroku
+- Kalendář s naplánovanými schůzkami a kurzy
+- Personalizovaný plán rozvoje
+- Notifikace a zprávy
 
-6. CÍLOVÁ SKUPINA
-	•	Aktivní sportovci připravující se na konec kariéry
-	•	Sportovci nucení skončit kvůli zranění
-	•	Sportovní kluby, agenti a svazy
-	•	Rodiny a partneři sportovců
+### 3. Systém vzdělávacích kurzů
+- Katalog kurzů s filtry a vyhledáváním
+- Video přehrávač s pokročilými funkcemi
+- Testy a kvízy pro ověření znalostí
+- Certifikáty o absolvování
 
-7. TRH A POTENCIÁL
-	•	Jen v EU ukončí ročně kariéru více než 15 000 profesionálních sportovců.
-	•	Kluby a svazy hledají programy péče o hráče po kariéře.
-	•	Firmy chtějí investovat do společensky odpovědných projektů (CSR).
-	•	Na trhu neexistuje komplexní systém podpory jako Sportovec 2.0.
+### 4. Rezervační systém pro mentoring
+- Profily mentorů s jejich specializací a zkušenostmi
+- Kalendář dostupnosti mentorů
+- Rezervace individuálních a skupinových schůzek
+- Hodnocení a zpětná vazba po schůzkách
 
-8. OBCHODNÍ MODEL
-	•	Spolupráce s kluby a svazy (B2B)
-	•	Individuální členství sportovců (B2C)
-	•	Prémiové mentoringové balíčky
-	•	Workshopy, retreaty a tematické akce
-	•	Financování z grantů a CSR partnerství
+### 5. Psychologická podpora
+- Rezervace konzultací s psychology
+- Knihovna článků a zdrojů
+- Anonymní podpůrné skupiny
+- Nástroje pro sebehodnocení a sledování pokroku
 
-9. PLÁN ROZVOJE
-Fáze
-Aktivita
-Q2 2025
-Sestavení realizačního týmu, příprava obsahu
-Q3 2025
-Spuštění pilotního programu pro první skupinu sportovců
-Q4 2025
-Spuštění online platformy a mentoringu
-2026
-Rozšíření programu, partnerství se svazy a expanze do zahraničí
+### 6. Komunita a networking
+- Fórum pro diskuze a sdílení zkušeností
+- Kalendář akcí a workshopů
+- Propojení s potenciálními zaměstnavateli
+- Burza práce specificky zaměřená na bývalé sportovce
 
-10. TÝM
-	•	Zakladatel: bývalý profesionální sportovec s osobní zkušeností
-	•	Experti: finance, psychologie, podnikání, mentoring
-	•	Ambasadoři: bývalí a současní sportovci, kteří se stávají inspirací
-	•	Podpora: síť profesionálních koučů, lektorů a odborných partnerů
+### 7. Platební systém
+- Integrace Stripe pro zpracování plateb
+- Správa předplatných a balíčků
+- Fakturace a daňové doklady
+- Refundace a kredity
 
-11. SILNÉ STRÁNKY SPORTOVCŮ PO KARIÉŘE
-🧭 Závěr: Profesionální sport ti dal do života víc, než si možná uvědomuješ. ➡ Nauč se to pojmenovat, využít a přetavit v úspěch i mimo hřiště.
-• Vysoká míra adaptace Přestupy, nové prostředí, změny trenérů – zvládáš přechody. ➡ Výhoda při změně profese nebo při podnikání.
-• Zdravé sebevědomí a vystupování Zkušenosti z médií, vystupování před lidmi. ➡ Vhodné pro obchod, prezentace, reprezentaci firmy.
-• Cílevědomost a motivace Umíš si jít za cílem a vydržet dlouhodobou práci. ➡ To, co ostatním často chybí, máš v sobě automaticky.
-• Odolnost vůči stresu Zápasy pod tlakem = výborná psychická odolnost. ➡ Velmi ceněná vlastnost v krizovém managementu.
-• Týmová spolupráce Zvyk pracovat ve skupině, chápat svou roli. ➡ Výhoda v korporátu, projektech i leadershipu.
-• Disciplína Naučený režim, odolnost vůči pohodlnosti. ➡ Skvělý základ pro podnikání i náročné profese.
-⚽ To, co tě dělalo výjimečným na hřišti, tě může posunout i v životě po fotbale.
-Vlastnosti, které můžeš přetavit v práci i podnikání 
+### 8. Administrační rozhraní
+- Správa uživatelů a rolí
+- Statistiky a analytika
+- Správa obsahu (kurzy, články)
+- Finanční přehledy
 
-12. VÝZVA K AKCI
-Hledáme partnery, kteří chtějí být součástí změny. Společně vytvoříme prostředí, ve kterém žádný sportovec nezůstane po kariéře sám. 
+## Technická architektura
+- **Frontend**: Next.js, React, TypeScript, TailwindCSS, Shadcn/UI
+- **Backend**: Next.js API Routes nebo Express.js
+- **Databáze**: PostgreSQL nebo MongoDB
+- **Autentizace**: NextAuth.js nebo Auth0
+- **Platby**: Stripe
+- **Media storage**: AWS S3 nebo Cloudinary
+- **Deployment**: Vercel
+
+## Prioritizace vývoje
+1. Dokončení a optimalizace informační webové stránky (responsivita, SEO, výkon)
+2. Implementace autentizace a uživatelských profilů
+3. Vytvoření katalogu kurzů a přehrávače videa
+4. Systém pro mentoring a rezervace
+5. Integrace plateb
+6. Komunitní funkce a networking
+7. Administrační rozhraní a analytika
+
+## Měřitelné cíle a metriky úspěchu
+- Počet registrovaných uživatelů
+- Míra dokončení kurzů
+- Spokojenost s mentoring schůzkami (hodnocení)
+- Průměrná doba strávená na platformě
+- Míra konverze u placených balíčků
+- Úspěšnost uživatelů v nalezení nové kariéry
+
+## Uživatelská zkušenost
+### Persony
+1. **Aktivní profesionální sportovec** - Plánuje ukončení kariéry v horizontu 2-3 let
+2. **Sportovec na konci kariéry** - Právě končí kariéru a potřebuje okamžitou podporu
+3. **Bývalý sportovec** - Ukončil kariéru před méně než 2 lety, hledá novou cestu
+4. **Sportovní klub/asociace** - Chce podpořit své sportovce v přípravě na život po kariéře
+
+### Klíčové uživatelské cesty
+1. Registrace a onboarding
+2. Výběr a účast na kurzech
+3. Rezervace a absolvování mentoringových schůzek
+4. Účast na komunitních akcích a networking
+5. Nalezení nových kariérních příležitostí
+
+## Logický řetězec závislostí
+1. Informační webová stránka (frontend)
+2. Autentizační systém
+3. Profily uživatelů a základní dashboard
+4. Katalog kurzů a mentoringových služeb
+5. Rezervační a platební systém
+6. Dodávka obsahu (video kurzy)
+7. Komunitní funkce a networking
+
+## Rizika a jejich zmírnění
+### Technické výzvy
+- **Riziko**: Složitost rezervačního systému s různými typy dostupnosti
+- **Zmírnění**: Iterativní přístup, začít s jednoduchým systémem a postupně rozšiřovat
+
+### Uživatelská adopce
+- **Riziko**: Nízký zájem sportovců o služby
+- **Zmírnění**: Spolupráce se sportovními kluby a asociacemi, cílený marketing
+
+### Omezení zdrojů
+- **Riziko**: Omezené finanční a personální zdroje pro plný rozsah funkcí
+- **Zmírnění**: Postupný vývoj s jasnou prioritizací dle potřeb uživatelů
+
+## Příloha
+### Referenční weby a inspirace
+- LinkedIn Learning
+- Udemy
+- Coaching platforumy
+- Sítě bývalých sportovců
+
+### Klíčové metriky úspěchu
+- Počet registrovaných uživatelů
+- Míra dokončení kurzů
+- Spokojenost s mentoringem
+- Úspěšnost uživatelů v nalezení nové kariéry 
